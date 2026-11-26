@@ -23,7 +23,7 @@ Wiki page: [M703B](../../../../PAGES/M703B.md)
 - **Title block:** (356, 36)–(432, 52) mm: WBS WARD-Beck systeMS · M7o18
 - **Wiring (first pass):** 180 connected wire groups from 1,359 runs; labelled ends: 540 mm → [K072Z, WBS, SCALL; 290 mm → Riig, IoLC; 204 mm → Ui4-B; 131 mm → Ui4-B; 117 mm → 9n
 
-Every curve, box, word and wire group: [1980 - M703B - 701-02-101 - MZOIB INTERCOM PRE-AMPLIFIER CKDRAX (traced).json](../SCHEMATICS/1980%20-%20M703B%20-%20701-02-101%20-%20MZOIB%20INTERCOM%20PRE-AMPLIFIER%20CKDRAX%20(traced).json) (the CAD file: `1980 - M703B - 701-02-101 - MZOIB INTERCOM PRE-AMPLIFIER CKDRAX (traced).dxf`).
+Every curve, box, word and wire group: [1980 - M703B - 701-02-101 - MZOIB INTERCOM PRE-AMPLIFIER CKDRAX (traced).json](../SCHEMATICS/1980%20-%20M703B%20-%20701-02-101%20-%20MZOIB%20INTERCOM%20PRE-AMPLIFIER%20CKDRAX%20%28traced%29.json) (the CAD file: `1980 - M703B - 701-02-101 - MZOIB INTERCOM PRE-AMPLIFIER CKDRAX (traced).dxf`).
 
 ## Full text
 

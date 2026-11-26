@@ -11,6 +11,18 @@ Wiki page: [M703B](../../../../PAGES/M703B.md)
 - **Size:** 5,982,037 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional, size B (assumed) 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px), turned 90°
+- **Ink extent:** 4–432 mm across, 0–288 mm up
+- **Outlines:** line 459 rings, 4,935 straight (11,974 mm) / 720 curved (1,079 mm); text 382 rings, 2,333 straight (2,716 mm) / 675 curved (1,006 mm)
+- **Centre lines:** 4,596 paths (107 closed); straight 7,772 mm, curved 313 mm; horizontal 3,603 mm, vertical 1,878 mm, diagonal 2,291 mm
+- **Circles and arcs:** 25 circles, 40 arcs; largest r 3.9 @ (351.0, 132.5), r 3.8 @ (324.8, 133.0), r 1.5 @ (346.2, 153.8), r 1.5 @ (279.6, 230.6)
+- **Closed boxes:** 16
+- **Wiring (first pass):** 133 connected wire groups from 502 runs
+
+Every curve, box, word and wire group: [1980 - M703B - 019 - functional (traced).json](../SCHEMATICS/1980%20-%20M703B%20-%20019%20-%20functional%20%28traced%29.json) (the CAD file: `1980 - M703B - 019 - functional (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 1 words corrected)
