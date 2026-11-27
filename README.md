@@ -13,6 +13,39 @@ Ward-Beck Systems M703B, 1980|13. Wiki page: [M703B on WBSps.ca](https://wardbec
 | [KICAD/](KICAD/) | KiCad schematics traced from the drawings, the symbol, PCB projects | 5 |
 | [OCR/](OCR/) | the note of every file: date, origin, title block, OCR text | 55 |
 
+<!-- module data: tools/module_specs.py, tools/forum_quotes.py -->
+
+**On the WBSps forum (2006|39 - 2014|47):** [2 topics](FORUM.md): what owners and technicians said about it.
+
+## Specifications
+
+From the technical data sheet: [1980 - M703B - p50001.jpg](MANUALS/1980%20-%20M703B%20-%20p50001.jpg) page 1 (read by OCR; check against the page). As data: [`Specifications.json`](Specifications.json).
+
+| | |
+|---|---|
+| **Gain** | Dynamic Mic: Carbon Mic: Line: ees 83 dB to 53 dB, t1 dB (Transducer Gain) _ 33 dB to 3 dB +1 dB (Matched Gain) 28 dB to -2 dB, t1 dB (Bridging Gainj_ s ±0.5 dB from 100 Hz to 5 kHz more than 3 dB down at 10 kHz (tailored response). |
+| **Noise** | Dynamic Mic:...: 120 dBm EIn at maximum sensitivity ' (20 Hz to 20 kHz) _ 50 dB/70 dB be ]ow +8 dBm over 30 dB sensitivity range _ '. 60 dB / 70 dB below +8 dBm over 30 dB sensitivity range |
+| **Carbon mic** |  |
+| &nbsp;&nbsp;Line |  |
+| **Harmonic distortion** | Less than 1 % THD from 100 Hz to 5 kHz at +18 dBm output (Limiter 0FF) = |
+| **Input levels** | Dynamic Mic: Carbon Mic: Line: e -75 dBm to -45 dBm. -25 dBm to +5 dBm. -20 dBm to +10 dBm. |
+| **Input impedances** | Dynamic Mic: Carbon Mic: Line: 1000 ohms nominal, balanced. 150 ohms nomina ] baLanced: 10k ohms nomina 7 baLanced. |
+| **Source impedances** | Dynamic Mic: Carbon Mic: Line: 150 ohms ba lanced/unba ]anced. 150 ohms maximum, ba lanced/unba lanced 600 ohms maximum, ba lanced/unba lanced. |
+| **Output level** | +8 dBm nomina ] +22 dBm maximum. |
+| **Output impedance** | Less than 50 ohms nomina7 baLanced |
+
+## Circuit description
+
+From [1980 - M703B - p220001.jpg](MANUALS/1980%20-%20M703B%20-%20p220001.jpg) page 1 (read by OCR; check against the pages). As data: [`CircuitDescription.json`](CircuitDescription.json).
+
+<details><summary>Read it</summary>
+
+The MZO2B output amplifier is designed to receive +8 dBm nomina 1 input signa ] and amplify it to power level sufficient to operate Toud-speaker at maximum of 3 watts Input The input is applied to pins U and V and is coupled by C201 and C202 to two separate resistive networks followed by two solid state switches The switches provide two individuals igna 1 paths between the module input and the buffer and output amplifiers 0203 and 0204 _ The ower path is used to produce ful] output while the upper path wil] produce partially muted output_ The contro] Logic determines the choice of the s igna ] path used for any given operation] condition.. -,; Mute Control_Logic:` 7... Pins 18 19 and 20 serve as the contro] inputs to the logic gates U2024 toD.; _, Under norma 1 conditions with no ground applied to any of the three contro] inputs the Band D sections of U201 are switched on and the and C sections are OFF _ As result, the amplifier is operating at ful] output (no muting applied) _ If the mute input (pin' 19) is grounded, a 11 switch sections of U201 are fully muted and the amp] ifier produces no output. 06 With Pin 18 grounded sections Band Do f U201 are OFF locking the mains igna] path. At the same time sections A and C of U201 are ON, opening the PART MUTE path The amount of muting is determined by R217 and maybe adjusted from -6 dB to -24 dB _:` ' /::. When pin 20 is grounded it Wil] override both the FULL MUTE and the PART MUTE functions described above, resulting in ful output via the and D sections of U201 _ Output The audios igna ] from the output of the solid state switches U201 is coupled through C207 and C208 to 0203 and the output power amplifier U204 Section B of U204 is utilized as watt power amplifier
+
+</details>
+
+<!-- /module data -->
+
 ## Schematics
 
 _Electrical drawings: schematics (-02-), functional diagrams (-01-), component layouts (-06-), wiring (-09-), PCB files (.pcb .dsn), and beside each scan its `(EXTRACTED).svg`: the vectors traced from it._

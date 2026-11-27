@@ -1,0 +1,19 @@
+{
+ "module": "M703B",
+ "source": {
+  "file": "MANUALS/1980 - M703B - p220001.jpg",
+  "pages": [
+   1
+  ]
+ },
+ "ocr_quality": 0.92,
+ "read": "OCR of the manual's circuit description; check against the pages",
+ "sections": [
+  {
+   "heading": null,
+   "paragraphs": [
+    "The MZO2B output amplifier is designed to receive +8 dBm nomina 1 input signa ] and amplify it to power level sufficient to operate Toud-speaker at maximum of 3 watts Input The input is applied to pins U and V and is coupled by C201 and C202 to two separate resistive networks followed by two solid state switches The switches provide two individuals igna 1 paths between the module input and the buffer and output amplifiers 0203 and 0204 _ The ower path is used to produce ful] output while the upper path wil] produce partially muted output_ The contro] Logic determines the choice of the s igna ] path used for any given operation] condition.. -,; Mute Control_Logic:` 7... Pins 18 19 and 20 serve as the contro] inputs to the logic gates U2024 toD.; _, Under norma 1 conditions with no ground applied to any of the three contro] inputs the Band D sections of U201 are switched on and the and C sections are OFF _ As result, the amplifier is operating at ful] output (no muting applied) _ If the mute input (pin' 19) is grounded, a 11 switch sections of U201 are fully muted and the amp] ifier produces no output. 06 With Pin 18 grounded sections Band Do f U201 are OFF locking the mains igna] path. At the same time sections A and C of U201 are ON, opening the PART MUTE path The amount of muting is determined by R217 and maybe adjusted from -6 dB to -24 dB _:` ' /::. When pin 20 is grounded it Wil] override both the FULL MUTE and the PART MUTE functions described above, resulting in ful output via the and D sections of U201 _ Output The audios igna ] from the output of the solid state switches U201 is coupled through C207 and C208 to 0203 and the output power amplifier U204 Section B of U204 is utilized as watt power amplifier"
+   ]
+  }
+ ]
+}
