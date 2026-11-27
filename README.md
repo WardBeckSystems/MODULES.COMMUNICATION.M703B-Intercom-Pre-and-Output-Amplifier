@@ -67,19 +67,54 @@ _Pinouts: the RTO-144 edge connector (connection sheets, connector layouts and r
 
 ## RTO-144 pinout
 
-21 contacts. Read from the module's own documents (no RTO-144 sheet yet). Every contact, with where it was read: [`RTO.json`](RTO.json).
+Read from 2 pinout pictures (each its own `.pinout.json` beside it). Every contact, with where it was read: [`RTO.json`](RTO.json). How a picture becomes this table: [the pinout decision tree](https://github.com/WardBeckSystems/WBSps.ca/blob/main/2026/Engineering/PINOUTS.md).
 
-| Pin | Signal | Kind | Pair | Confidence |
+| Pin | Signal | Kind | Port | Confidence |
 |---|---|---|---|---|
-| 2 | NC | nc |  | medium |
-| 10 | SHIELD | ground |  | medium |
-| 13 | NC | nc |  | medium |
-| 16 | NC | nc |  | medium |
-| 21 | NC | nc |  | medium |
-| B | NC | nc |  | medium |
-| E | NC | nc |  | medium |
-| P | NC | nc |  | medium |
-| T | NC | nc |  | medium |
+| 1 | PREAMP SUPPLY | power |  | high |
+| 2 | N/C | nc |  | high |
+| 3 | PREAMP IN | in | PREAMP IN | high |
+| 4 | PREAMP IN | in | PREAMP IN | high |
+| 5 | PREAMP IN SHIELD | shield | PREAMP IN shield | high |
+| 6 | N/C | nc |  | high |
+| 7 | N/C | nc |  | high |
+| 8 | PREAMP OUT | out | PREAMP OUT | high |
+| 9 | N/C | nc |  | high |
+| 10 | PREAMP COMMON | ground |  | high |
+| 11 | N/C | nc |  | high |
+| 12 | N/C | nc |  | high |
+| 13 | OUTPUT AMP SUPPLY | power |  | high |
+| 14 | N/C | nc |  | high |
+| 15 | N/C | nc |  | high |
+| 16 | N/C | nc |  | high |
+| 17 | N/C | nc |  | high |
+| 18 | PART MUTE CONTROL | control_in | PART MUTE CTL | high |
+| 19 | MUTE CONTROL | control_in | MUTE CTL | high |
+| 20 | MUTE OVERRIDE CONTROL | control_in | MUTE OVERRIDE CTL | high |
+| 21 | SPEAKER OUT | out | SPKR OUT | high |
+| 22 | OUTPUT AMP COMMON | ground |  | high |
+| A | N/C | nc |  | high |
+| B | N/C | nc |  | high |
+| C | N/C | nc |  | high |
+| D | N/C | nc |  | high |
+| E | N/C | nc |  | high |
+| F | N/C | nc |  | high |
+| H | N/C | nc |  | high |
+| J | PREAMP OUT | out | PREAMP OUT | high |
+| K | REMOTE MIC SELECT | control_in | REM MIC SEL | high |
+| L | N/C | nc |  | high |
+| M | N/C | nc |  | high |
+| N | N/C | nc |  | high |
+| P | OUTPUT AMP SUPPLY | power |  | high |
+| R | N/C | nc |  | high |
+| S | N/C | nc |  | high |
+| T | OUTPUT AMP IN SHIELD | shield | OUTPUT AMP IN shield | high |
+| U | OUTPUT AMP IN | in | OUTPUT AMP IN | high |
+| V | OUTPUT AMP IN | in | OUTPUT AMP IN | high |
+| W | 600 OHM OUTPUT | out | 600 OHM OUTPUT | high |
+| X | 600 OHM OUTPUT | out | 600 OHM OUTPUT | high |
+| Y | SPEAKER OUT | out | SPKR OUT | high |
+| Z | OUTPUT AMP COMMON | ground |  | high |
 
 ## Manuals and documents
 
