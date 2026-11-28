@@ -4,13 +4,11 @@ Ward-Beck Systems M703B, 1980|13. Wiki page: [M703B on WBSps.ca](https://wardbec
 
 | Folder | What is in it | Files |
 |---|---|---|
-| [SCHEMATICS/](SCHEMATICS/) | electrical drawings: schematics, functional diagrams, component layouts, wiring | 41 |
-| [MECHANICAL/](MECHANICAL/) | front panels, cover plates, metalwork, assemblies; the front panel as vectors | 2 |
-| [PINOUTS/](PINOUTS/) | the RTO-144 connector: connection sheets, connector layouts, rear views | 13 |
-| [MANUALS/](MANUALS/) | manuals, manual pages, price lists, brochures, documents | 44 |
-| [PHOTOS/](PHOTOS/) | photographs of the module | 1 |
-| [SOFTWARE/](SOFTWARE/) | program listings, firmware, the plugin | 1 |
-| [KICAD/](KICAD/) | KiCad schematics traced from the drawings, the symbol, PCB projects | 10 |
+| [SCHEMATICS/](SCHEMATICS/) | electrical drawings: schematics, functional diagrams, component layouts, wiring | 40 |
+| [MECHANICAL/](MECHANICAL/) | front panels, cover plates, metalwork, assemblies; the front panel as vectors | 1 |
+| [PINOUTS/](PINOUTS/) | the RTO-144 connector: connection sheets, connector layouts, rear views | 12 |
+| [MANUALS/](MANUALS/) | manuals, manual pages, price lists, brochures, documents | 43 |
+| [KICAD/](KICAD/) | KiCad schematics traced from the drawings, the symbol, PCB projects | 9 |
 | [OCR/](OCR/) | the note of every file: date, origin, title block, OCR text | 55 |
 
 <!-- module data: tools/module_specs.py, tools/forum_quotes.py -->
@@ -151,7 +149,6 @@ _KiCad: a schematic (`.kicad_sch`) traced from each electrical drawing, the modu
 - [1980 - M703B - 702-02-101.kicad_sch](KICAD/1980%20-%20M703B%20-%20702-02-101.kicad_sch)
 - [1980 - M703B - B 701-01-011 - M701B - INTERCOM PREAMPLIFIER - FUNCTIONAL DIAGRAM.kicad_sch](KICAD/1980%20-%20M703B%20-%20B%20701-01-011%20-%20M701B%20-%20INTERCOM%20PREAMPLIFIER%20-%20FUNCTIONAL%20DIAGRAM.kicad_sch)
 - [M703B.kicad_sym](KICAD/M703B.kicad_sym)
-- [index.html](KICAD/index.html)
 
 ---
 Archive: Anthony Peter Kuzub · [WBSps.ca](https://WBSps.ca) · [WBSps.Kuzub.com](https://WBSps.Kuzub.com)
