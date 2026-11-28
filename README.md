@@ -1,6 +1,6 @@
 # M703B Intercom Pre and Output Amplifier · Communication
 
-Ward-Beck Systems M703B, 1980|13. Wiki page: [M703B on WBSps.ca](https://wardbecksystems.github.io/WBSps.ca/PAGES/M703B.html)
+Ward-Beck Systems M703B, 1980|13. Wiki page: [M703B on WBSps.ca](https://wardbecksystems.github.io/WBSps.ca/WBSps.ca/Github.WardBeckSystems/MODULES.COMMUNICATION.M703B-Intercom-Pre-and-Output-Amplifier/)
 
 | Folder | What is in it | Files |
 |---|---|---|

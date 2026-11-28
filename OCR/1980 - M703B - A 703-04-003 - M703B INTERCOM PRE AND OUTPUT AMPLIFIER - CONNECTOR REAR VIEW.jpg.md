@@ -1,5 +1,5 @@
 # 1980 - M703B - A 703-04-003 - M703B INTERCOM PRE AND OUTPUT AMPLIFIER - CONNECTOR REAR VIEW.jpg
-Wiki page: [M703B](../../../../PAGES/M703B.md)
+Wiki page: [M703B](../)
 
 
 - **Year:** 1980 (module estimate (manual_issue))

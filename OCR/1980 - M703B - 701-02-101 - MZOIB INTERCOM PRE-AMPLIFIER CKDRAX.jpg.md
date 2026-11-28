@@ -1,5 +1,5 @@
 # 1980 - M703B - 701-02-101 - MZOIB INTERCOM PRE-AMPLIFIER CKDRAX.jpg
-Wiki page: [M703B](../../../../PAGES/M703B.md)
+Wiki page: [M703B](../)
 
 
 - **Year:** 1980 (module estimate (manual_issue))

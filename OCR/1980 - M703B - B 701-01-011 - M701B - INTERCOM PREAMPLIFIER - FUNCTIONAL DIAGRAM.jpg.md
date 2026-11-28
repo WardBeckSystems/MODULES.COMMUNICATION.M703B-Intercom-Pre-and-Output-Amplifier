@@ -1,5 +1,5 @@
 # 1980 - M703B - B 701-01-011 - M701B - INTERCOM PREAMPLIFIER - FUNCTIONAL DIAGRAM.jpg
-Wiki page: [M703B](../../../../PAGES/M703B.md)
+Wiki page: [M703B](../)
 
 
 - **Year:** 1980 (module estimate (manual_issue))
